@@ -1,3 +1,6 @@
+// pesquisar em inglês as receitas
+
+
 function searchRecipe() {
     const ingredient = document.getElementById('ingredient').value;
     const url = `https://www.themealdb.com/api/json/v1/1/filter.php?i=${encodeURIComponent(ingredient)}`;
